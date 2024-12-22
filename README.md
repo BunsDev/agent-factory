@@ -1,22 +1,15 @@
-# agent-factory
-Collection of agents creation tools, each of which allows for the creation of distinct types of AI agents.
-
-<div align="center">
+<div>
+    <h1>AI Agent Factory</h1>
+    <p>Collection of agent creation tools, each of which allows for the creation of distinct types of AI agents. 
+    Enabling developers to harness AI agents to revolutionize operations and streamline application production, drawing from successful implementations that align with best practices.</p>
   <!-- <a href="https://www.youtube.com/"> -->
-    <!-- <img alt="AI Agents Masterclass" src="https://i.imgur.com/8Gr2pBA.png"> -->
-    <h1 align="center">AI Agent Factory</h1>
+    <div style="margin-top: 25px;margin-bottom:25px">
+    <h2>
+      Chat Agent Example
+    </h2>
+      <img width="700" alt="Asana Chat Agent Conversation (Example)" src="agents/asana/chat/example-chat.png" />
   <!-- </a> -->
 </div>
-
-<p align="center">
-Currently, the most crucial area for developers to invest their efforts is in Artificial Intelligence. 
-However, there's a significant gap - the majority of developers aren't exploring AI agents, which holds 
-the key to maximizing AI's potential. That's precisely why I've established this AI Agents Factory. 
-
-My goal is to demonstrate how you can harness AI agents to revolutionize business operations and 
-develop robust applications, drawing from my extensive experience in successful implementations.
-
-</p>
 
 <p align="center" style="margin-top: 25px">
   <a href="#what-are-ai-agents"><strong>What are AI Agents?</strong></a> ·
@@ -37,23 +30,16 @@ that orchestrate multiple agents working in harmony to achieve extraordinary out
 we'll embark on throughout this masterclass, and I'm thrilled to guide you through it!
 
 
-<!-- Below is a very basic diagram just to get an idea of what an AI agent looks like:
+Below is a very basic diagram just to get an idea of what an AI agent looks like:
 
 <div align="center" style="margin-top: 25px;margin-bottom:25px">
 <img width="700" alt="Trainers Ally LangGraph graph" src="https://i.imgur.com/ChRoV8W.png">
-</div> -->
+</div>
 
 <br/>
 
+
 ## Usage Instructions
-
-<!-- Any folder that starts with a number is for a masterclass video. The other folders are for other content
-on my YouTube channel. The other content goes very well with the masterclass series (think of it as
-supplemental material) which is why it is here too! -->
-
-<!-- The code in each folder will be exactly what is used/created in the accompanying masterclass video. -->
-
-<!-- <br/> -->
 
 The below instructions assume you already have Git, Python, and Pip installed. If you do not, you can install
 [Python + Pip from here](https://www.python.org/downloads/) and [Git from here](https://git-scm.com/).
