@@ -1,4 +1,4 @@
-# Asana Chat Agent
+# Asana Chatbot Agent
 
 This project creates and uses a LangGraph Agent powered by LangChain's [LangGraph](https://www.langchain.com/langgraph). Documentation for LangGraph may be found in their [GitBook](https://langchain-ai.github.io/langgraph/).
 
@@ -24,7 +24,7 @@ This project creates and uses a LangGraph Agent powered by LangChain's [LangGrap
 
 ```bash
 git clone https://github.com/bunsdev/agent-factory.git
-cd agent-factory/agents/asana/chat
+cd agent-factory/agents/asana/chatbot
 ```
 
 2. Install dependencies (recommend to do this in a Python virtual environment):

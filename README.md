@@ -7,7 +7,7 @@
     <h2>
       Chat Agent Example
     </h2>
-      <img width="700" alt="Asana Chat Agent Conversation (Example)" src="agents/asana/chat/example-chat.png" />
+      <img width="700" alt="Asana Chat Agent Conversation (Example)" src="agents/asana/chatbot/example-chat.png" />
   <!-- </a> -->
 </div>
 
