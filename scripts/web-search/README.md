@@ -14,7 +14,7 @@ This project implements a web search agent using Pydantic AI and the Brave Searc
 1. Clone the repository:
 ```bash
 git clone https://github.com/bunsdev/agent-factory.git
-cd agent-factory/tools/pydantic-ai
+cd agent-factory/scripts/web_search
 ```
 
 2. Install dependencies (recommend to do this in a Python virtual environment):
@@ -44,19 +44,6 @@ python web_search_agent.py
 ```
 
 The script determines whether to use OpenAI or Ollama based on the `LLM_MODEL` environment variable (whether it starts with 'gpt' or not).
-
-### Streamlit Interface
-
-The Streamlit version is created to provide a UI with text streaming from the LLM and chat history. Text streaming doesn't work with Ollama, so this Streamlit example will just use GPT. 
-
-**Make sure your have your OpenAI API key set**. This can also be adjusted to use standard non-streaming like `web_search_agent.py` if you want to use Ollama.
-
-1. Set your OpenAI API key in the `.env` file.
-2. Start the Streamlit app:
-```bash
-streamlit run streamlit_ui.py
-```
-3. The Streamlit app will open in your browser.
 
 ## Configuration
 
