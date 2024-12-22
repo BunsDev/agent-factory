@@ -1,6 +1,6 @@
-# Pydantic AI: Web Search Agent with Brave API
+# Web Search with Brave API
 
-This project implements a web search agent using Pydantic AI and the Brave Search API, with both a command-line interface and a Streamlit web interface. The agent can be configured to use either OpenAI's GPT models or Ollama's local models.
+This project implements a web search agent using Brave Search API, with a command-line interface The agent can be configured to use either OpenAI's GPT models or Ollama's local models.
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@ This project implements a web search agent using Pydantic AI and the Brave Searc
 1. Clone the repository:
 ```bash
 git clone https://github.com/bunsdev/agent-factory.git
-cd agent-factory/scripts/web_search
+cd agent-factory/tools/web-search
 ```
 
 2. Install dependencies (recommend to do this in a Python virtual environment):
@@ -22,7 +22,7 @@ cd agent-factory/scripts/web_search
 pip install -r requirements.txt
 ```
 
-This will install Pydantic AI, Streamlit, and all of their dependencies.
+This will install Streamlit, and all of their dependencies.
 
 3. Set up environment variables:
    - Rename `.env.example` to `.env`.
