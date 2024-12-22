@@ -20,8 +20,7 @@ develop robust applications, drawing from my extensive experience in successful 
 
 <p align="center" style="margin-top: 25px">
   <a href="#what-are-ai-agents"><strong>What are AI Agents?</strong></a> ·
-  <a href="#how-this-repo-works"><strong>How this Repo Works</strong></a> ·
-  <a href="#instructions-to-follow-along"><strong>Instructions to Follow Along</strong></a>
+  <a href="#usage-instructions"><strong>Usage Instructions</strong></a> ·
 </p>
 <br/>
 
@@ -46,7 +45,7 @@ we'll embark on throughout this masterclass, and I'm thrilled to guide you throu
 
 <br/>
 
-## Repo Usage Instructions
+## Usage Instructions
 
 <!-- Any folder that starts with a number is for a masterclass video. The other folders are for other content
 on my YouTube channel. The other content goes very well with the masterclass series (think of it as
