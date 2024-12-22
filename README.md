@@ -56,17 +56,15 @@ supplemental material) which is why it is here too! -->
 
 <!-- <br/> -->
 
-Start with [/1-first-agent/](/1-first-agent) for the first scenario in the masterclass where we create our very first AI agent.
-
 The below instructions assume you already have Git, Python, and Pip installed. If you do not, you can install
 [Python + Pip from here](https://www.python.org/downloads/) and [Git from here](https://git-scm.com/).
 
 First clone this GitHub repository, open up a terminal,
-and change your directory to the folder for the current scenario you are watching (example: start with [/1-first-agent/](/1-first-agent)).
+and change your directory to the folder for the current scenario you are watching (example: start with [/tools/pydantic-ai/](/pydantic-ai)).
 
 The below instructions work on any OS - Windows, Linux, or Mac.
 
-You will need to use the environment variables defined in the .env.example file in the folder (example for the first one: [`1-first-agent/.env.example`](/1-first-agent/.env.example)) to set up your API keys and other configuration. Turn the .env.example file into a `.env` file, and supply the necessary environment variables.
+You will need to use the environment variables defined in the .env.example file in the folder (example for pydantic-ai: [`pydantic-ai/.env.example`](/tools/pydantic-ai/.env.example)) to set up your API keys and other configuration. Turn the .env.example file into a `.env` file, and supply the necessary environment variables.
 
 After setting up the .env file, run the below commands to create a Python virtual environment and install the necessary Python packages to run the code. 
 
@@ -81,7 +79,7 @@ python -m venv agent-factory
 # On MacOS/Linux: 
 source agent-factory/bin/activate
 
-cd 1-first-agent (or whichever folder)
+cd tools/pydantic-ai (or whichever tool or script)
 pip install -r requirements.txt
 ```
 
@@ -90,3 +88,7 @@ Then, you can execute the code in the folder with:
 ```bash
 python [script name].py
 ```
+
+## Installation Instructions for `pipx` and `pip`.
+- Install pipx: `brew install pipx`
+- Install pip: `pipx install pip`

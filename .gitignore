@@ -14,3 +14,6 @@ venv
 venv2
 *.db
 .venv
+bin
+lib
+*.cfg
