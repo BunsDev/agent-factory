@@ -18,26 +18,23 @@
 <br/>
 
 ## What are AI Agents?
+<div align="center" style="margin-top: 25px;margin-bottom:25px">
+<img width="2240" alt="AI Agents and Agentic Applications Workflow Diagram" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*8C5-jT1MwQrJ8cO8Zfy81w.gif">
+</div>
 
 At their core, AI agents are Large Language Models (LLMs) enhanced with the capability to engage with external systems.
 
 Their applications are vast - from composing emails and managing CRM appointments to handling task management systems. 
+
 The possibilities are truly limitless, and I'm excited to help you explore the full scope of what's possible!
 
 What makes AI agents particularly remarkable is their ability to deliver powerful results with minimal coding requirements. 
+
 Yet, this simplicity doesn't limit their potential - there's enormous opportunity to develop sophisticated systems 
-that orchestrate multiple agents working in harmony to achieve extraordinary outcomes. This is the exciting journey 
-we'll embark on throughout this masterclass, and I'm thrilled to guide you through it!
+that orchestrate multiple agents working in harmony to achieve extraordinary outcomes.
 
-
-Below is a very basic diagram just to get an idea of what an AI agent looks like:
-
-<div align="center" style="margin-top: 25px;margin-bottom:25px">
-<img width="700" alt="Trainers Ally LangGraph graph" src="https://i.imgur.com/ChRoV8W.png">
-</div>
-
-<br/>
-
+This is the exciting journey 
+we'll embark on and I'm thrilled to guide you through it!
 
 ## Usage Instructions
 

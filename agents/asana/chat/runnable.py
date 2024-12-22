@@ -17,7 +17,9 @@ load_dotenv()
 model = os.getenv('LLM_MODEL', 'gpt-4o')
 
 tools = [tool for _, tool in available_functions.items()]
-chatbot = ChatOpenAI(model=model, streaming=True) if "gpt" in model.lower() else ChatAnthropic(model=model, streaming=True)
+chatbot = ChatOpenAI(model=model, streaming=True) 
+# if "gpt" in model.lower() 
+# else ChatAnthropic(model=model, streaming=True)
 chatbot_with_tools = chatbot.bind_tools(tools)
 
 ### State
