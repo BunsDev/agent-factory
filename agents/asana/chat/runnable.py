@@ -15,9 +15,14 @@ from tools import available_functions
 
 load_dotenv()
 model = os.getenv('LLM_MODEL', 'gpt-4o')
+api_key = os.getenv('OPENAI_API_KEY', '')
 
 tools = [tool for _, tool in available_functions.items()]
-chatbot = ChatOpenAI(model='gpt-4o', streaming=True)
+chatbot = ChatOpenAI(
+    api_key=api_key, 
+    model='gpt-4o', 
+    streaming=True
+)
 chatbot_with_tools = chatbot.bind_tools(tools)
 
 ### State
