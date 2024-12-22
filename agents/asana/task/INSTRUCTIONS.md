@@ -1,5 +1,5 @@
 # Asana Agent
-This project creates and uses a LangChain Agent powered by (LangChain)[https://python.langchain.com/] via the (LangChain project)[https://pypi.org/project/langchain/].
+This project creates and uses a LangChain Agent powered by [LangChain](https://python.langchain.com/) via the [LangChain project](https://pypi.org/project/langchain/).
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ This project creates and uses a LangChain Agent powered by (LangChain)[https://p
 1. Clone the repository:
 ```bash
 git clone https://github.com/bunsdev/agent-factory.git
-cd agent-factory/agents/langchain
+cd agent-factory/agents/asana/task
 ```
 
 2. Install dependencies (recommend to do this in a Python virtual environment):
@@ -41,7 +41,7 @@ This will install Streamlit, and all of their dependencies.
 The command-line version can work with both GPT and Ollama models:
 
 ```bash
-python langchain-agent.py
+python asana-task-agent.py
 ```
 An example to create an Asana task:
 ```
