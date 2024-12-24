@@ -43,12 +43,11 @@ The command-line version can work with both GPT and Ollama models:
 ```bash
 python asana-task-agent.py
 ```
+
 An example to create an Asana task:
-```
+```bash
 create task named "submit report" due on 12-24-2024
 ```
-
-<!-- The script determines whether to use OpenAI or Ollama based on the `LLM_MODEL` environment variable (whether it starts with 'gpt' or not). -->
 
 ## Configuration
 

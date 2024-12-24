@@ -53,10 +53,10 @@ This will install Streamlit, and all of their dependencies.
 streamlit run asana-chat-agent.py
 ```
 
-An example to create an Asana task sub-tasks:
+An example to create an Asana task with sub-tasks:
 
 ```bash
-I would like to create a new repository named agent-factory, which includes a few new agents, tasks, and tools. Let's make those 3 topics: "agents", "tasks, "tools" actions that are distinct from one another and are actionable.
+I would like to create a task on Asana named. Let's name the task "agent factory", which includes 3 subtasks. Let's make those subtasks: "agents", "tasks, and "tools".
 ```
 
 ## Configuration
